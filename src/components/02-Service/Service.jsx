@@ -1,8 +1,11 @@
 import React from 'react'
+import Hero from './02-components/Hero'
 
 const Service = () => {
   return (
-    <div>Service</div>
+    <>
+      <Hero />
+    </>
   )
 }
 
