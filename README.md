@@ -15,6 +15,7 @@ CSS設計は __TailwingCSS__ を使います。
 ## ファイル構成
 
 ファイル構成はこちらのTreeのとおり
+<pre>
 src
 ├── App.css
 ├── App.jsx
@@ -51,5 +52,6 @@ src
 ├── images
 ├── index.css
 └── main.jsx
+</pre>
 
 01~09それぞれのファイルのcomponentsにページごとの部品が入っているイメージ。
