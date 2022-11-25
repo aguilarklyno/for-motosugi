@@ -10,7 +10,10 @@ CSS設計は __TailwingCSS__ を使います。
 ページ遷移には __react-router-dom__ を使います
 インストール方法は[こちら](https://v5.reactrouter.com/web/guides/quick-start)
 
-ただしApp.cssの方にrootとしてバニラCSSを適用
+ただし
+・App.cssの方にrootとしてバニラCSSを適用
+・繰り返しの多い部分には styled-componentsを使用 (npm install styled-components)
+
 
 ## ファイル構成
 
