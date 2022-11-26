@@ -1,8 +1,11 @@
 ## Mr.モトスギに依頼されたWebサイトの制作
 こちらのレポジトリはMr.モトスギの意向によって制作されいてます。
 
+## How to run
 
-## 設計
+$ npm run dev
+
+## System
 
 CSS設計は __TailwingCSS__ を使います。
 インストール方法は[こちら](https://tailwindcss.com/docs/guides/create-react-app)
