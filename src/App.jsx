@@ -20,13 +20,13 @@ function App() {
         <Header />
           <Routes>
             <Route path="/home" element={<Home />} />
-            <Route path="/" element={<Service />} />
-            <Route path="/" element={<Cashless />} />
-            <Route path="/" element={<Custom />} />
-            <Route path="/" element={<Plan />} />
-            <Route path="/" element={<Colum />} />
-            <Route path="/" element={<News />} />
-            <Route path="/" element={<FAQ />} />
+            <Route path="/service" element={<Service />} />
+            <Route path="/cashless" element={<Cashless />} />
+            <Route path="/custom" element={<Custom />} />
+            <Route path="/plan" element={<Plan />} />
+            <Route path="/colum" element={<Colum />} />
+            <Route path="/news" element={<News />} />
+            <Route path="/faq" element={<FAQ />} />
             </Routes>
         <Footer />
       </div>

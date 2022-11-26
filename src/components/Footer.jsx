@@ -29,22 +29,22 @@ const Footer = () => {
         </ul>
 
         <div className='flex flex-col items-center justify-center'>
-          <div className='flex md:flex-row flex-col justify-center bg-gray-300 h-auto w-auto py-12 rounded-lg'>
-            <div className='flex flex-col h-36 items-center md:border-r-2 md:border-b-0 border-b-2 px-4  md:mx-0 mx-32'>
+          <div className='flex md:flex-row flex-col justify-center bg-gray-200 h-auto w-auto py-12 rounded-lg'>
+            <div className='flex flex-col h-36 items-center md:border-r-2 md:border-b-0 border-b-2 border-gray-300 px-4  md:mx-0 mx-32'>
               <h1 className='text-xs '>オンライン商談</h1>
               <HiDesktopComputer className='my-2' size={60}/>
               <div className='bg-yellow-300 text-center rounded-full'>
                 <p className='p-2 m-0 text-xs'>お申し込み</p>
               </div>
             </div>
-            <div className='flex flex-col h-36 items-center md:border-r-2 md:border-b-0 border-b-2 px-4 md:mt-0 mt-4 md:mx-0 mx-32'>
+            <div className='flex flex-col h-36 items-center md:border-r-2 md:border-b-0 border-b-2 border-gray-300 px-4 md:mt-0 mt-4 md:mx-0 mx-32'>
               <h1 className='text-xs '>オンライン商談</h1>
               <HiDesktopComputer className='my-2' size={60}/>
               <div className='bg-yellow-300 text-center rounded-full'>
                 <p className='p-2 m-0 text-xs'>お申し込み</p>
               </div>
             </div>
-            <div className='flex flex-col h-36 items-center px-4 md:mt-0 mt-4 md:mx-0 mx-32'>
+            <div className='flex flex-col h-36 items-center border-gray-300 px-4 md:mt-0 mt-4 md:mx-0 mx-32'>
               <h1 className='text-xs '>オンライン商談</h1>
               <HiDesktopComputer className='my-2' size={60}/>
               <div className='bg-yellow-300 text-center rounded-full'>
